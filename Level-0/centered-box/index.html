@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centered Box</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .outer,
+      .middle,
+      .inner {
+        width: 60%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 20px solid rgb(242, 234, 234);
+        border-radius: 50px;
+      }
+
+      .outer {
+        background-color: #2196f3;
+      }
+
+      .middle {
+        background-color: #ff5722;
+      }
+
+      .inner {
+        background-color: #3aefb2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="middle">
+        <div class="inner">
+          <h1>🌻</h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
