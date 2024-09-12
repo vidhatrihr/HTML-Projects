@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Mood Tracker</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f0f8ff;
+      }
+
+      h1 {
+        color: #4169e1;
+      }
+
+      .mood-container {
+        margin: 20px auto;
+        padding: 20px;
+        max-width: 300px;
+        text-align: left;
+        border: 2px solid #4169e1;
+        border-radius: 10px;
+        background-color: white;
+      }
+
+      .mood-option {
+        margin: 10px 0;
+      }
+      .mood-emoji {
+        font-size: 30px;
+        margin-right: 10px;
+      }
+
+      button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        background-color: #4169e1;
+        color: white;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Mood Tracker</h1>
+    <div class="mood-container">
+      <h2>What is your mood today</h2>
+
+      <div class="mood-option">
+        <input type="radio" id="happy" name="mood" />
+        <label for="happy">
+          <span class="mood-emoji">😊</span>
+          Happy
+        </label>
+      </div>
+
+      <div class="mood-option">
+        <input type="radio" id="sad" name="mood" />
+        <label for="sad">
+          <span class="mood-emoji">☹️</span>
+          Sad
+        </label>
+      </div>
+
+      <div class="mood-option">
+        <input type="radio" id="excited" name="mood" />
+        <label for="excited">
+          <span class="mood-emoji">😄</span>
+          Excited
+        </label>
+      </div>
+
+      <div class="mood-option">
+        <input type="radio" id="Angry" name="mood" />
+        <label for="Angry">
+          <span class="mood-emoji">😡</span>
+          Angry
+        </label>
+      </div>
+
+      <div class="mood-option">
+        <input type="radio" id="calm" name="mood" />
+        <label for="calm">
+          <span class="mood-emoji">😊</span>
+          Calm
+        </label>
+      </div>
+      <button>Track My Mood</button>
+    </div>
+  </body>
+</html>
