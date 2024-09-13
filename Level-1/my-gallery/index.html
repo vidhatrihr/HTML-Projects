@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Gallery</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+      }
+      .gallery {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      .gallery-item {
+        padding: 20px;
+        border: 2px solid #333;
+        border-radius: 2px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .gallery-item:hover {
+        transform: rotate(5deg);
+        filter: blur(2px) grayscale(100%);
+      }
+      img {
+        width: 250px;
+        height: 300px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Gallery</h1>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="akshay-syal-5vDTocCCutE-unsplash.jpg" alt="kedarnath" />
+      </div>
+
+      <div class="gallery-item">
+        <img src="alka-jha-KA31iorjH00-unsplash.jpg" alt="hampi" />
+      </div>
+
+      <div class="gallery-item">
+        <img src="andrea-maschio-UEY9zNRK5RU-unsplash.jpg" alt="paris" />
+      </div>
+
+      <div class="gallery-item">
+        <img src="shubhanshu-prajapati-aZdnWO0LFZc-unsplash.jpg" alt="sangam" />
+      </div>
+
+      <div class="gallery-item">
+        <img src="sylwia-bartyzel-eU4pipU_8HA-unsplash.jpg" alt="taj mahal" />
+      </div>
+    </div>
+  </body>
+</html>
