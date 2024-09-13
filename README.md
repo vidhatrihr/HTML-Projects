@@ -25,7 +25,7 @@ Simple HTML & CSS projects. Created on September 9, 2024.
 - **🐍 [Python String Methods](https://vidhatrihr.github.io/html-projects/Level-1/python-string-methods)**
 - **🖼️ [Quote Cards](https://vidhatrihr.github.io/html-projects/Level-1/quote-cards)**
 - **📅 [Simple Events List](https://vidhatrihr.github.io/html-projects/Level-1/simple-events-list)**
-- **⭐ [Cat Gallery](https://vidhatrihr.github.io/html-projects/Level-1/cat-gallery)**
+- **🖼️ [My Gallery](https://vidhatrihr.github.io/html-projects/Level-1/my-gallery)**
 - **🎨 [Colorful Boxes](https://vidhatrihr.github.io/html-projects/Level-1/colorful-boxes)**
 - **🔐 [Login Page](https://vidhatrihr.github.io/html-projects/Level-1/login-page)**
 - **🍽️ [Restaurant Menu](https://vidhatrihr.github.io/html-projects/Level-1/restaurant-menu)**
