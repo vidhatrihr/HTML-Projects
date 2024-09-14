@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colorful Boxes</title>
+    <style>
+      body {
+        padding: 20px 0;
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        border: 4px solid;
+        border-radius: 10px;
+        color: white;
+        font-size: 16px;
+        /* text-align: center; */
+        font-weight: bold;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        /* background-color: midnightblue; */
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .red-box {
+        background-color: #e74c3c;
+        border-color: #c0392b;
+        box-shadow: 5px 5px 15px #c0392b;
+      }
+
+      .blue-box {
+        background-color: #3498db;
+        border-color: #2980b9;
+        box-shadow: 5px 5px 15px #2980b9;
+      }
+
+      .green-box {
+        background-color: #2ecc71;
+        border-color: #27ae60;
+        box-shadow: 5px 5px 15px #27ae60b9;
+      }
+
+      .yellow-box {
+        background-color: #f1c40f;
+        border-color: #f39c12;
+        box-shadow: 5px 5px 15px #f39c12;
+      }
+
+      .purple-box {
+        background-color: #9b59b6;
+        border-color: #8e44ad;
+        box-shadow: 5px 5px 15px rgb(155 89 182 / 70%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="box red-box">I am a red box</div>
+        <div class="box blue-box">I am a blue box</div>
+      </div>
+      <div class="row">
+        <div class="box green-box">I am a green box</div>
+        <div class="box yellow-box">I am a yellow box</div>
+      </div>
+      <div class="row">
+        <div class="box purple-box">I am a purple box</div>
+        <div class="box red-box">I am a red box</div>
+      </div>
+      <div class="row">
+        <div class="box yellow-box">I am a yellow box</div>
+        <div class="box green-box">I am a green box</div>
+      </div>
+      <div class="row">
+        <div class="box red-box">I am a red box</div>
+        <div class="box blue-box">I am a blue box</div>
+      </div>
+    </div>
+  </body>
+</html>
