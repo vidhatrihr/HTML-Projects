@@ -6,6 +6,8 @@
     <title>Beautiful Quotes</title>
     <style>
       body {
+        margin: 0;
+        padding: 20px;
         font-family: Arial, Helvetica, sans-serif;
         background-color: #f0f0f0;
       }
@@ -17,63 +19,93 @@
 
       .quote-container {
         max-width: 800px;
-        margin: 20px 10px;
-        padding: 20px;
-        width: 500px;
-        height: 50%;
-        align-items: center;
+        margin: 0 auto;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
-        border: 1px solid rebeccapurple;
+      }
+
+      .quote-card {
+        margin: 10px;
+        padding: 20px;
+        width: calc(50% - 20px);
+        border: 2px solid;
+        border-radius: 10px;
         background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       }
 
-      .first {
-        border: 5px solid chartreuse;
-        border-radius: 5px 30px;
-        box-shadow: 10px 10px 10px chartreuse;
+      @media (max-width: 600px) {
+        .quote-card {
+          width: 100%;
+        }
       }
 
-      .second {
-        border: 1px solid darkblue;
-        box-shadow: 5px 10px lightblue;
+      .quote-text {
+        font-size: 18px;
+        font-style: italic;
+        margin-bottom: 10px;
       }
 
-      .third {
-        border: 0.5px solid;
-        border-radius: 8px 15px 3px 2px;
-        box-shadow: 5px 10px lightgreen;
+      .quote-author {
+        font-weight: bold;
+        text-align: right;
+      }
+
+      .quote-card:nth-child(1) {
+        border-color: tomato;
+      }
+
+      .quote-card:nth-child(2) {
+        border-color: forestgreen;
+      }
+
+      .quote-card:nth-child(3) {
+        border-color: indigo;
+      }
+
+      .quote-card:nth-child(4) {
+        border-color: orange;
+      }
+
+      .quote-card:nth-child(5) {
+        border-color: midnightblue;
       }
     </style>
   </head>
   <body>
     <h1>Beautiful Quotes</h1>
-    <div class="quote-container first">
-      <p class="quote-text">
-        "The only way to do great work is to love what you do."
-      </p>
-      <p class="quote-author">- Steve Jobs</p>
-    </div>
-    <div class="quote-container second">
-      <p class="quote-text">"In the middle of difficulty lies opportunity."</p>
-      <p class="quote-author">- Albert Einstein</p>
-    </div>
-    <div class="quote-container third">
-      <p class="quote-text">"Believe you can and you're halfway there."</p>
-      <p class="quote-author">- Theodore Roosevelt</p>
-    </div>
     <div class="quote-container">
-      <p class="quote-text">
-        "The future belongs to those who believe in the beauty of their dreams."
-      </p>
-      <p class="quote-author">- Eleanor Roosevelt</p>
-    </div>
-    <div class="quote-container">
-      <p class="quote-text">
-        "Give me six hours to chop down a tree and I will spend the first four
-        sharpening the axe."
-      </p>
-      <p class="quote-author">- Abraham Lincoln</p>
+      <div class="quote-card">
+        <p class="quote-text">
+          "The only way to do great work is to love what you do."
+        </p>
+        <p class="quote-author">- Steve Jobs</p>
+      </div>
+      <div class="quote-card">
+        <p class="quote-text">
+          "In the middle of difficulty lies opportunity."
+        </p>
+        <p class="quote-author">- Albert Einstein</p>
+      </div>
+      <div class="quote-card">
+        <p class="quote-text">"Believe you can and you're halfway there."</p>
+        <p class="quote-author">- Theodore Roosevelt</p>
+      </div>
+      <div class="quote-card">
+        <p class="quote-text">
+          "The future belongs to those who believe in the beauty of their
+          dreams."
+        </p>
+        <p class="quote-author">- Eleanor Roosevelt</p>
+      </div>
+      <div class="quote-card">
+        <p class="quote-text">
+          "Give me six hours to chop down a tree and I will spend the first four
+          sharpening the axe."
+        </p>
+        <p class="quote-author">- Abraham Lincoln</p>
+      </div>
     </div>
   </body>
 </html>
