@@ -6,22 +6,34 @@
     <title>Document</title>
     <style>
       .parent {
-        /* height: 150px; */
-        min-height: 150px;
-        max-height: 350px;
-        background-color: aqua;
-        /* overflow: scroll; */
+        padding: 20px;
+        font-size: 20px;
+      }
+
+      .highlight {
+        padding: 20px;
+        height: 100px;
+
+        display: inline-block;
+        background-color: lime;
+      }
+
+      .experiment {
+        background-color: lightblue;
       }
     </style>
   </head>
   <body>
     <div class="parent">
-      <div>hello</div>
-      <div>hello</div>
-      <div>hello</div>
-      <div>hello</div>
-      <div>hello</div>
-      <div>hello</div>
+      <div>
+        Art is a diverse range of
+        <span class="highlight">human activity</span> and its resulting product
+        <!-- 
+        <span class="highlight">expressive</span> of technical
+        <span class="highlight">proficiency</span>, beauty, emotional
+        <span class="highlight"> power</span>, or conceptual
+        <span class="highlight">ideas</span>. -->
+      </div>
     </div>
   </body>
 </html>
