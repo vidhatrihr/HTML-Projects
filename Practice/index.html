@@ -5,11 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      * {
+        box-sizing: border-box;
+      }
       .parent {
         padding: 20px;
         font-size: 20px;
+        display: flex;
       }
 
+      .child {
+        flex-grow: 1;
+        padding: 10px;
+        height: 400px;
+        width: 400px;
+        text-align: center;
+        background-color: aquamarine;
+      }
+
+      /* 
       .highlight {
         padding: 20px;
         height: 100px;
@@ -20,14 +34,18 @@
 
       .experiment {
         background-color: lightblue;
-      }
+      } */
     </style>
   </head>
   <body>
     <div class="parent">
       <div>
-        Art is a diverse range of
-        <span class="highlight">human activity</span> and its resulting product
+        <h1 class="child">Hello</h1>
+        <h1 class="child">Hello</h1>
+        <h1 class="child">Hello</h1>
+        <h1 class="child">Hello</h1>
+        <!-- Art is a diverse range of
+        <span class="highlight">human activity</span> and its resulting product -->
         <!-- 
         <span class="highlight">expressive</span> of technical
         <span class="highlight">proficiency</span>, beauty, emotional
