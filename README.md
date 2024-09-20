@@ -19,7 +19,7 @@ Simple HTML & CSS projects. Created on September 9, 2024.
 
 ## Level 1
 
-- **🌅 [Beautiful Karnataka](https://vidhatrihr.github.io/html-projects/Level-1/beautiful-karnataka)**
+- **🌅 [Beautiful UP](https://vidhatrihr.github.io/html-projects/Level-1/beautiful-UP)**
 - **📚 [Devabhasa Sanskrit Society](https://vidhatrihr.github.io/html-projects/Level-1/devabhasa-sanskrit-society)**
 - **📹 [Favorite YouTube Videos](https://vidhatrihr.github.io/html-projects/Level-1/favorite-youtube-videos)**
 - **🐍 [Python String Methods](https://vidhatrihr.github.io/html-projects/Level-1/python-string-methods)**
