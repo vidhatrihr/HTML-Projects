@@ -19,6 +19,7 @@ Simple HTML & CSS projects. Created on September 9, 2024.
 
 ## Level 1
 
+- **🌟 [valmiki-jayanthi](https://vidhatrihr.github.io/HTML-Projects/level-1/valmiki-jayanthi)**
 - **🌅 [Rahul's Birthday](https://vidhatrihr.github.io/HTML-Projects/level-1/rahul-s-birthday)**
 - **🌅 [Paru Gallery](https://vidhatrihr.github.io/HTML-Projects/level-1/paru-gallery)**
 - **🌅 [Beautiful UP](https://vidhatrihr.github.io/HTML-Projects/level-1/beautiful-UP)**
