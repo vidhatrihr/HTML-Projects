@@ -4,6 +4,7 @@ Simple HTML & CSS projects. Created on September 9, 2024.
 
 ## Level 0
 
+- **🎂 [1st webpage](https://vidhatrihr.github.io/HTML-Projects/level-0/1st-webpage)**
 - **🎂 [Birthday Card](https://vidhatrihr.github.io/HTML-Projects/level-0/birthday-card)**
 - **📦 [Centered Box](https://vidhatrihr.github.io/HTML-Projects/level-0/centered-box)**
 - **🎂 [Five Birthday Cards](https://vidhatrihr.github.io/HTML-Projects/level-0/five-birthday-cards)**
@@ -11,6 +12,7 @@ Simple HTML & CSS projects. Created on September 9, 2024.
 - **📊 [Mood Tracker](https://vidhatrihr.github.io/HTML-Projects/level-0/mood-tracker)**
 - **📝 [My Todo List](https://vidhatrihr.github.io/HTML-Projects/level-0/my-todo-list)**
 - **📰 [News of the Day](https://vidhatrihr.github.io/HTML-Projects/level-0/news-of-the-day)**
+- **📰 [News](https://vidhatrihr.github.io/HTML-Projects/level-0/news)**
 - **🖼️ [Simple Picture Gallery](https://vidhatrihr.github.io/HTML-Projects/level-0/simple-picture-gallery)**
 - **👤 [Simple Profile Page](https://vidhatrihr.github.io/HTML-Projects/level-0/simple-profile-page)**
 - **🚀 [Space Travel](https://vidhatrihr.github.io/HTML-Projects/level-0/space-travel)**
@@ -31,9 +33,10 @@ Simple HTML & CSS projects. Created on September 9, 2024.
 - **🖼️ [My Gallery](https://vidhatrihr.github.io/HTML-Projects/level-1/my-gallery)**
 - **🎨 [Colorful Boxes](https://vidhatrihr.github.io/HTML-Projects/level-1/colorful-boxes)**
 - **🔐 [Login Page](https://vidhatrihr.github.io/HTML-Projects/level-1/login-page)**
-- **🍽️ [Restaurant Menu](https://vidhatrihr.github.io/HTML-Projects/level-1/restaurant-menu)**
 - **⛩️ [Virupaksha Temple](https://vidhatrihr.github.io/HTML-Projects/level-1/virupaksha-temple)**
 - **🎵 [Twinkle Twinkle Little Star](https://vidhatrihr.github.io/HTML-Projects/level-1/twinkle-twinkle-little-star)**
+- **⛩️ [Bhajan Sandhya Mail](https://vidhatrihr.github.io/HTML-Projects/level-1/bhajan-sandhya)**
+- **⛩️ [IKS Mail](https://vidhatrihr.github.io/HTML-Projects/level-1/iks)**
 
 ## Practice
 
