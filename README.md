@@ -2,6 +2,8 @@
 
 Simple HTML & CSS projects. Created on September 9, 2024.
 
+View live on [GitHub Pages](https://vidhatrihr.github.io/html-Projects).
+
 ## Level 0
 
 - **🎂 [1st webpage](https://vidhatrihr.github.io/HTML-Projects/level-0/1st-webpage)**
@@ -37,9 +39,3 @@ Simple HTML & CSS projects. Created on September 9, 2024.
 - **🎵 [Twinkle Twinkle Little Star](https://vidhatrihr.github.io/HTML-Projects/level-1/twinkle-twinkle-little-star)**
 - **⛩️ [Bhajan Sandhya Mail](https://vidhatrihr.github.io/HTML-Projects/level-1/bhajan-sandhya)**
 - **⛩️ [IKS Mail](https://vidhatrihr.github.io/HTML-Projects/level-1/iks)**
-
-## Practice
-
-- **🌟 [1st Webpage](https://vidhatrihr.github.io/HTML-Projects/practice/1st-webpage.html)**
-
-View live on [GitHub Pages](https://vidhatrihr.github.io/html-projects).
