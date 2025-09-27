@@ -2,7 +2,7 @@
 
 Simple HTML & CSS projects. Created on September 9, 2024.
 
-View live on [GitHub Pages](https://vidhatrihr.github.io/html-Projects).
+View live on [GitHub Pages](https://vidhatrihr.github.io/HTML-Projects).
 
 ## Level 0
 
